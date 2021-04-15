@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="img">
+      <div class="pattern"></div>
+      <div class="woman">
+      </div>
+    </div>
+    <div class="T_block">
+      <p class="head">FAQ</p>
+      <p id="q1" onclick="display1()" class="question">How many team members can I invite?<img src="icon-arrow-down.svg" alt="" id="aw1" class="arrow"></p>
+      <p id="a1" class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+        team members for the Premium plan.</p>
+      <hr>
+      <p id="q2" onclick="display2()" class="question">What is the maximum file upload size?<img src="icon-arrow-down.svg" alt="" id="aw2" class="arrow"></p>
+      <p id="a2" class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        <hr>
+        <p id="q3" onclick="display3()" class="question">How do I reset my password?<img src="icon-arrow-down.svg" alt="" id="aw3" class="arrow"></p>
+      <p id="a3" class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you.</p>
+        <hr>
+        <p id="q4" onclick="display4()" class="question">Can I cancel my subscription?<img src="icon-arrow-down.svg" alt="" id="aw4" class="arrow"></p>
+      <p id="a4" class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        <hr>
+        <p id="q5" onclick="display5()" class="question">Do you provide additional support?<img src="icon-arrow-down.svg" alt="" id="aw5" class="arrow"></p>
+      <p id="a5" class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        
+      <hr>
+    </div>
+    <div class="innerbox"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
